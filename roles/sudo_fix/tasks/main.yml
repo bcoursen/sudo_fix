@@ -1,0 +1,3 @@
+---
+- name: Copy sudoers file to remote system
+  copy: src=sudoers.txt dest=/etc/sudoers owner=root group=root mode=0440
